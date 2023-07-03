@@ -463,7 +463,7 @@ a{
 }
 .item-nav > *{
     
-    width: 70px;
+    width: 100%;
     height: inherit;
     
     margin-left: 5px;
@@ -552,8 +552,19 @@ footer{
         border-bottom: 1px solid rgb(240, 237, 237);
         overflow: hidden;
     }
+    .search-box {
+        display: flex;
+        align-items: center;
+        font-size: 14px;
+        font-weight: 500;
+        max-width: 321px;
+    }
+    .search-root{
+        
+    }
     .side-bar{
         width: 100%; 
+        overflow: hidden;
     }
     .navitem1{
         display: flex;
@@ -572,6 +583,9 @@ footer{
         align-items: center;
         max-width: 80px;
         height: 100%;
+   }
+   .s-item-1 >*{
+    width: 100%;
    }
     
     .rightnav{
@@ -626,7 +640,8 @@ footer{
     .nav-btn-1,
     .nav-btn-2,
     .dropdown-city,
-    .btn-city{
+    .btn-city,
+    .item-nav{
         display: none;
     }
 
