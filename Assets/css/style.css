@@ -4,6 +4,7 @@
 }
 body{
     background-color: #fff;
+    padding: 8px 5px;
 }
 
 nav{
@@ -432,6 +433,9 @@ a{
     height: 32px; 
     background: yellow;
 }
+.menu-main >*{
+    border-bottom: 1px solid rgb(105, 41, 41);
+}
 .menu-main .product{
     display: flex;
     gap: 1rem;
@@ -545,7 +549,7 @@ footer{
     nav{
         display: flex;
         align-items: center;
-        top: 0%;
+        top: 10px;
         height: 64px;
         z-index: 100;
         background: #fff;
@@ -557,11 +561,9 @@ footer{
         align-items: center;
         font-size: 14px;
         font-weight: 500;
-        max-width: 321px;
+        max-width: 121px;
     }
-    .search-root{
-        
-    }
+
     .side-bar{
         width: 100%; 
         overflow: hidden;
