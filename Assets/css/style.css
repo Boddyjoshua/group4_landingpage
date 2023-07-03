@@ -565,6 +565,9 @@ footer{
         font-weight: 500;
         max-width: 121px;
     }
+    .logo-main{
+        gap: 0;
+    }
 
     .side-bar{
         width: 100%; 
