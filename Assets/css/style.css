@@ -201,6 +201,7 @@ a{
 .search-input{
     background: inherit;
     border: none;
+    width: inherit;
 }
 
 @media (min-width: 481px){
